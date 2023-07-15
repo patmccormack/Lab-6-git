@@ -27,4 +27,5 @@ if __name__ == "__main__":
 
         if user_input == 1:
             encode_input = input("Please enter your password to encode: ")
-            print(f"Your password has been encoded and stored! {encode(encode_input)} \n")
+            encoded_password = encode(encode_input)
+            print(f"Your password has been encoded and stored! {encoded_password} \n")
